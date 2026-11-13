@@ -1,0 +1,11 @@
+# Final submission checklist
+- [ ] Run frontend production build
+- [ ] Run backend tests and save terminal output
+- [ ] Test search, filters, bookmarks, listing submission and error states
+- [ ] Run accessibility audit and fix critical findings
+- [ ] Run Lighthouse performance audit
+- [ ] Review security settings and dependencies
+- [ ] Deploy frontend and backend; verify live health and CRUD
+- [ ] Push source and evidence to one repository/project page
+- [ ] Add live URL, repository URL, test evidence and optional video link to README
+- [ ] Submit one public/view-only proof link

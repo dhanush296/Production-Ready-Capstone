@@ -1,0 +1,14 @@
+services:
+  api:
+    build: ./backend
+    environment:
+      DATABASE_PATH: /data/internships.db
+      CORS_ORIGINS: http://localhost:8080
+    ports: ["8000:8000"]
+    volumes: ["launchpad-data:/data"]
+  web:
+    build: ./frontend
+    ports: ["8080:80"]
+    depends_on: [api]
+volumes:
+  launchpad-data:
